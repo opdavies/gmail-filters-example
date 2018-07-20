@@ -4,9 +4,10 @@ Example implementation of the [Gmail Filter Builder](https://github.com/opdavies
 
 ## Usage
 
-- Clone the repository using `git clone https://github.com/opdavies/gmail-filter-example.git && $_`.
+- Clone the repository using `git clone https://github.com/opdavies/gmail-filter-example && $_`.
 - Run `composer install`.
-- Run `./vendor/bin/generate-filters generate` or `composer generate` to generate the XML file.
+- Run `vendor/bin/generate-filters generate` or `composer generate` to generate a `filters.xml` file.
+- Import the XML file into Gmail!
 
 ## Author
 
