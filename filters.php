@@ -4,14 +4,12 @@ use Opdavies\GmailFilterBuilder\Filter;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-$filters = [];
+return [
+    Filter::create()
+        ->from('foo@example.com')
+        ->labelAndArchive('Example'),
 
-$filters[] = Filter::create()
-    ->from('foo@example.com')
-    ->labelAndArchive('Example');
-
-$filters[] = Filter::create()
-    ->from('bar@example.com')
-    ->important();
-
-return $filters;
+    Filter::create()
+        ->from('bar@example.com')
+        ->important(),
+];
