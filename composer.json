@@ -3,6 +3,6 @@
         "opdavies/gmail-filter-builder": "^1.1"
     },
     "scripts": {
-        "generate": "generate-filters generate"
+        "generate": "generate-filters"
     }
 }
